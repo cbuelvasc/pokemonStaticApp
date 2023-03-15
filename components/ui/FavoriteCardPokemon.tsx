@@ -11,7 +11,7 @@ const FavoriteCardPokemon: FC<PropsWithChildren<Props>> = ({ pokemonId }) => {
   const router = useRouter();
 
   const onFavoritedClicked = () => {
-    router.push(`/pokemon/${pokemonId}`);
+    router.push(`/pokemonById/${pokemonId}`);
   };
 
   return (
